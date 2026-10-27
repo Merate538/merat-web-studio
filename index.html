@@ -234,6 +234,16 @@
       overflow: hidden;
       background: #e7e5df;
     }
+    .project-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-visual:has(img) {
+  padding: 0;
+}
 
     .project-visual span {
       font-size: 10px;
@@ -549,11 +559,10 @@
 
         <div class="projects">
           <article class="project">
-            <div class="project-visual visual-estate">
-              <span>Real estate / 01</span>
-              <strong>Find a place<br>to call home.</strong>
-              <span>Property website concept</span>
-            </div>
+            <div class="project-visual">
+  <img src="real estate 1 .png"
+       alt="Real estate website preview">
+</div>
             <div class="project-info">
               <div>
                 <h3>Real Estate</h3>
